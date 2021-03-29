@@ -1,0 +1,64 @@
+.headings{
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 8vw;
+    text-shadow: 2px 10px 10px rgb(29, 235, 250);
+    border-style: solid none solid none;
+    text-align: center;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 70vh;
+    width: 60vh;
+    border-style: ridge;
+    border-color: cyan;
+    border-width: 20px;
+}
+
+.table_heading{
+    color:red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.table_content{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.table_row_name{
+    color: gold;
+}
+
+.buttons{
+    background-image: linear-gradient(to right,magenta,blue,magenta);
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    font-family: georgia;
+    font-variant: small-caps;
+    border-color: black;
+    border-width: 15px;
+    box-shadow: 0px 20px 15px 3px cyan, 0px -20px 15px 3px cyan;
+    margin-bottom: 50px;
+}
+
+.buttons:hover{
+    color: white;
+    background-image: linear-gradient(to right,blue,black,blue);
+    border-color: black;
+    box-shadow: 0px 20px 15px 3px white, 0px -20px 15px 3px white;
+}
+
+.buttons:active{
+    color: red;
+    border-color: cyan;
+}
