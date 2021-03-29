@@ -1,0 +1,38 @@
+.headings{
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 80px;
+    text-shadow: 2px 10px 10px rgb(29, 235, 250);
+    border-style: solid none solid none;
+    text-align: center;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 500px;
+    width: 500px;
+    border-style: ridge;
+    border-color: cyan;
+    border-width: 20px;
+}
+
+.table_heading{
+    color:red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.table_content{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.table_row_name{
+    color: gold;
+}
