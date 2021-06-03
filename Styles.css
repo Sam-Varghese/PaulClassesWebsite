@@ -1,0 +1,136 @@
+@keyframes animationbg {
+  from {
+    background-image: linear-gradient(whitesmoke, cyan, blue);
+  }
+  to {
+    background-image: linear-gradient(
+      rgb(235, 228, 16),
+      rgb(29, 211, 211),
+      rgb(13, 13, 186)
+    );
+  }
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+#link {
+    color:rgb(52, 238, 15);
+}
+
+body {
+  animation-name: animationbg;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  transition: all;
+  background-repeat: no-repeat;
+}
+
+@keyframes animation1 {
+  10% {
+    color: orange;
+    /* background-color: black; */
+  }
+  50% {
+    color: blue;
+    /* background-color: gold; */
+  }
+  75% {
+    color: red;
+    /* background-color: black; */
+  }
+}
+
+.parent_menu {
+  display: flex;
+  flex-direction: row;
+  background-color: cyan;
+  border: 14px solid blue;
+  justify-content: center;
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.child_menu {
+  padding: 10px;
+  margin: 10px;
+  background-color: gold;
+  color: blue;
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid red;
+}
+
+.parent_menu:hover {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(52, 238, 15);
+  border: 14px solid blue;
+  justify-content: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.child_menu:hover {
+  padding: 10px;
+  margin: 10px;
+  background-color: whitesmoke;
+  color: blue;
+  transform: scale(1.2, 1.2);
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+h1 {
+  color: blue;
+  font-family: "Norican", cursive;
+  font-size: 5vw;
+  margin: 1vw 5vw 1vw 5vw;
+  animation-name: animation1;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  transition: all;
+  transition-duration: 2s;
+}
+
+h1:hover {
+  font-family: "Norican", cursive;
+  font-size: 6vw;
+  margin: 1vw 5vw 1vw 5vw;
+  color: rgb(50, 196, 21);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  transition: all;
+  transition-duration: 1s;
+  border: 1vw ridge whitesmoke;
+}
+
+img:hover {
+  transform: scale(1.2, 1.2);
+  border: 1vw ridge blue;
+}
+
+p {
+  font-size: 2vw;
+  font-family: "El Messiri", sans-serif;
+  color: white;
+  transition: all;
+  transition-duration: 1s;
+}
+
+p:hover {
+  font-size: 2vw;
+  font-family: "El Messiri", sans-serif;
+  color: gold;
+}
