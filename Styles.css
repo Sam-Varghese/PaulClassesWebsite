@@ -31,8 +31,11 @@ body {
 
 iframe {
   height: 2000;
-  width: 100%;
-  border: 10px ridge white;
+  width: 95%;
+  border: 5px ridge white;
+  padding: 1px;
+  margin: 1px;
+  
 }
 
 @keyframes animation1 {
