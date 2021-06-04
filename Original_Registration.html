@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+
+    <link rel="stylesheet" type="text/css" href="Styles.css" />
+
+    <!-- Handwriting for heading -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Norican&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Handwriting for paragraphs -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Habdwriting for input -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Creating menus -->
+
+    <div class="parent_menu">
+      <div class="child_menu">
+        <a href="index.html" class="noUnderline">Home</a>
+      </div>
+      <div class="child_menu">
+        <a href="Profile.html" class="noUnderline">Profile</a>
+      </div>
+      <div class="child_menu">
+        <a href="Timings.html" class="noUnderline">Timings</a>
+      </div>
+      <div class="child_menu">
+        <a href="Fees.html" class="noUnderline">Fee Structure</a>
+      </div>
+      <div class="child_menu">
+        <a href="Contact.html" class="noUnderline">Contact</a>
+      </div>
+    </div>
+
+    <h1 align="center">Registration Form</h1>
+
+    <form>
+      <div class="centeredForm">
+        <label for="Name">Please enter the name of the student: </label>
+        <input
+          type="text"
+          name="Name"
+          id="Name"
+          placeholder="Name of student"
+        />
+      </div>
+      <div class="centeredForm">
+        <label for="Class">Please enter the class: </label>
+        <select name="Class" id="Class">
+          <option value="9">9</option>
+          <option value="">10</option>
+          <option value="">11 Applied</option>
+          <option value="">11 Standard</option>
+          <option value="">12 Applied</option>
+          <option value="">12 Standard</option>
+        </select>
+      </div>
+
+      <div class="centeredForm">
+        <label for="EMail">EMail ID of the student: </label>
+        <input
+          type="email"
+          name="EMail"
+          id="EMail"
+          placeholder="EMail ID of student"
+        />
+      </div>
+      <div class="centeredForm">
+        <label for="Mode">Mode of attending classes: </label>
+        <select name="Mode" id="Mode">
+          <option value="Online">Online</option>
+          <option value="Offline">Offline</option>
+        </select>
+      </div>
+
+      <div class="centeredForm">
+        <label for="ContParents"
+          >WhatsApp number of parents (Separated by comma):
+        </label>
+        <input
+          type="number"
+          name="ContParents"
+          id="ContParents"
+          placeholder="1234567890,9876543219..."
+        />
+      </div>
+      <div class="centeredForm">
+        <label for="ContStudent">WhatsApp number of student: </label>
+        <input
+          type="tel"
+          name="ContStudent"
+          id="ContStudent"
+          pattern="[0,9]{10}"
+          placeholder="1234567890"
+        />
+      </div>
+
+      <div class="centeredForm">
+        <label for="Occupation">Occupation of father/ mother: </label>
+        <input
+          type="text"
+          name="Occupation"
+          id="Occupation"
+          placeholder="Occupation"
+        />
+      </div>
+      <div class="centeredForm">
+        <label for="Address">Address: </label>
+        <input
+          type="text"
+          name="Address"
+          id="Address"
+          placeholder="Permanent Address"
+        />
+      </div>
+
+      <div class="centeredForm">
+        <label for="More">Any additional concern/ message: </label>
+        <textarea
+          name="More"
+          id="More"
+          cols="30"
+          rows="10"
+          placeholder="Message to leave"
+        ></textarea>
+      </div>
+
+      <div class="Button"><input type="reset" value="Reset" /></div>
+      <div class="Button"><input type="submit" value="Submit" /></div>
+    </form>
+  </body>
+</html>

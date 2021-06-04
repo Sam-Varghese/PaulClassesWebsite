@@ -31,6 +31,7 @@
       href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap"
       rel="stylesheet"
     />
+
   </head>
 
   
@@ -58,100 +59,8 @@
 
     <h1 align="center">Registration Form</h1>
 
-    <form>
-      <div class="centeredForm">
-        <label for="Name">Please enter the name of the student: </label>
-        <input
-          type="text"
-          name="Name"
-          id="Name"
-          placeholder="Name of student"
-        />
-      </div>
-      <div class="centeredForm">
-        <label for="Class">Please enter the class: </label>
-        <select name="Class" id="Class">
-          <option value="9">9</option>
-          <option value="">10</option>
-          <option value="">11 Applied</option>
-          <option value="">11 Standard</option>
-          <option value="">12 Applied</option>
-          <option value="">12 Standard</option>
-        </select>
-      </div>
+    <div align="center">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_p-p-jLhfWXF6xGTNpovwjVfQyxpG3bn2TDOz4F9cycFYCg/viewform?embedded=true" frameborder="0" height="2000" width="100%"></iframe></div>
 
-      <div class="centeredForm">
-        <label for="EMail">EMail ID of the student: </label>
-        <input
-          type="email"
-          name="EMail"
-          id="EMail"
-          placeholder="EMail ID of student"
-        />
-      </div>
-      <div class="centeredForm">
-        <label for="Mode">Mode of attending classes: </label>
-        <select name="Mode" id="Mode">
-          <option value="Online">Online</option>
-          <option value="Offline">Offline</option>
-        </select>
-      </div>
-
-      <div class="centeredForm">
-        <label for="ContParents"
-          >WhatsApp number of parents (Separated by comma):
-        </label>
-        <input
-          type="number"
-          name="ContParents"
-          id="ContParents"
-          placeholder="1234567890,9876543219..."
-        />
-      </div>
-      <div class="centeredForm">
-        <label for="ContStudent">WhatsApp number of student: </label>
-        <input
-          type="tel"
-          name="ContStudent"
-          id="ContStudent"
-          pattern="[0,9]{10}"
-          placeholder="1234567890"
-        />
-      </div>
-
-      <div class="centeredForm">
-        <label for="Occupation">Occupation of father/ mother: </label>
-        <input
-          type="text"
-          name="Occupation"
-          id="Occupation"
-          placeholder="Occupation"
-        />
-      </div>
-      <div class="centeredForm">
-        <label for="Address">Address: </label>
-        <input
-          type="text"
-          name="Address"
-          id="Address"
-          placeholder="Permanent Address"
-        />
-      </div>
-
-      <div class="centeredForm">
-        <label for="More">Any additional concern/ message: </label>
-        <textarea
-          name="More"
-          id="More"
-          cols="30"
-          rows="10"
-          placeholder="Message to leave"
-        ></textarea>
-      </div>
-
-      <div class="Button"><input type="reset" value="Reset"></div>
-      <div class="Button"><input type="submit" value="Submit"></div>
-
-    </form>
   </body>
 </html>
