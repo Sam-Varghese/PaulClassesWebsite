@@ -11,6 +11,8 @@
   }
 }
 
+
+
 .noUnderline {
   text-decoration: none;
 }
@@ -26,7 +28,7 @@ body {
   transition: all;
   background-repeat: no-repeat;
   box-sizing: border-box;
-  background-size: cover;
+  background-size: contain;
 }
 
 @keyframes animation1 {
@@ -305,4 +307,324 @@ input[type="reset"]:hover {
   border: 10px ridge red;
   padding: 5px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 646px) {
+  @keyframes animationbg {
+    from {
+      background-image: linear-gradient(whitesmoke, cyan, blue);
+    }
+    to {
+      background-image: linear-gradient(
+        rgb(235, 228, 16),
+        rgb(29, 211, 211),
+        rgb(13, 13, 186)
+      );
+    }
+  }
+
+  
+  .noUnderline {
+    text-decoration: none;
+  }
+
+  #link {
+    color: rgb(52, 238, 15);
+  }
+
+  body {
+    animation-name: animationbg;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transition: all;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: contain;
+  }
+
+  @keyframes animation1 {
+    10% {
+      color: orange;
+      /* background-color: black; */
+    }
+    50% {
+      color: blue;
+      /* background-color: gold; */
+    }
+    75% {
+      color: red;
+      /* background-color: black; */
+    }
+  }
+
+  .parent_menu {
+    display: flex;
+    flex-direction: row;
+    background-color: cyan;
+    border: 2px solid blue;
+    justify-content: center;
+    transition: all;
+    transition-duration: 0.5s;
+    border-radius: 2px;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+
+  .child_menu {
+    
+    font-size: 3vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 2px solid red;
+    margin: 3px;
+  }
+
+  .parent_menu:hover {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 238, 15);
+    border: 2px solid blue;
+    justify-content: center;
+    border-radius: 2px;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+
+  .child_menu:hover {
+    
+    background-color: aqua;
+    font-size: 3vw;
+    color: white;
+    transform: scale(1.2, 1.2);
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 3px;
+  }
+
+  h1 {
+    color: blue;
+    font-family: "Norican", cursive;
+    font-size: 15vw;
+    margin: 1vw 5vw 1vw 5vw;
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transition: all;
+    transition-duration: 2s;
+  }
+
+  h1:hover {
+    font-family: "Norican", cursive;
+    font-size: 15vw;
+    margin: 1vw 5vw 1vw 5vw;
+    color: rgb(50, 196, 21);
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transition: all;
+    transition-duration: 1s;
+    border: 1vw ridge whitesmoke;
+  }
+
+  img:hover {
+    transform: scale(1.2, 1.2);
+    border: 1vw ridge blue;
+  }
+
+  p {
+    font-size: 5vw;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  p:hover {
+    font-size: 5vw;
+    font-family: "El Messiri", sans-serif;
+    color: gold;
+  }
+
+  table {
+    border: 2px ridge gold;
+    padding: 5px;
+    margin: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+    /* table-layout: fixed; */
+    /* width: 100%; */
+  }
+
+  td {
+    border: 4px ridge cyan;
+    font-size: 5vw;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+    text-align: center;
+  }
+
+  th {
+    color: rgb(23, 56, 225);
+    border: 5px ridge white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 5vw;
+    transition: all;
+    transition-duration: 0.5s;
+    background-color: rgb(235, 16, 206);
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  td:hover {
+    border: 2px ridge rgb(12, 12, 194);
+    font-size: 5vw;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    background-color: yellow;
+  }
+
+  th:hover {
+    color: blue;
+    border: 5vw ridge rgb(34, 236, 34);
+    padding: 5px;
+    margin: 5px;
+    font-size: 2vw;
+    background-color: pink;
+    /* border: 3px ridge rgb(12, 12, 194); */
+  }
+
+  table:hover {
+    border: 5vw ridge greenyellow;
+    padding: 5px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  label {
+    font-size: 15px;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  label:hover {
+    font-size: 5vw;
+    font-family: "El Messiri", sans-serif;
+    color: gold;
+  }
+
+  input {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+    transition: all;
+    transition-duration: 0.5s;
+    color: rgb(0, 76, 255);
+    margin: 5px;
+  }
+
+  select {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+  }
+
+  .centeredForm {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2px;
+  }
+
+  form {
+    padding: 2px;
+    border: 2px ridge cyan;
+  }
+
+  textarea {
+    width: 20%;
+    font-size: 5vw;
+    height: 20px;
+    transition: all;
+    transition-duration: 1s;
+    font-family: "Antic Slab", serif;
+  }
+
+  textarea:focus {
+    width: 20%;
+    font-size: 5vw;
+    height: 15vw;
+    font-family: "Antic Slab", serif;
+    border: 2px ridge red;
+    color: rgb(0, 76, 255);
+  }
+
+  input:hover {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+    border: 2px ridge red;
+    color: rgb(0, 76, 255);
+  }
+
+  select:hover {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+    border: 2px ridge red;
+    color: rgb(0, 76, 255);
+  }
+
+  .Button {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: linear-gradient(to right, gold, white, gold);
+    margin: 2px;
+    transition: all;
+    transition-duration: 3s;
+  }
+
+  .Button:hover {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: linear-gradient(to right, cyan, gold, cyan);
+    margin: 2px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    color: blue;
+    border: 2px ridge red;
+    font-weight: bold;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    color: red;
+    border: 5px ridge red;
+    padding: 5px;
+    font-weight: bold;
+  }
 }
