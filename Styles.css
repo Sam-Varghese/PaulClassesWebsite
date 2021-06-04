@@ -12,11 +12,11 @@
 }
 
 .noUnderline {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #link {
-    color:rgb(52, 238, 15);
+  color: rgb(52, 238, 15);
 }
 
 body {
@@ -25,6 +25,8 @@ body {
   animation-duration: 5s;
   transition: all;
   background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: cover;
 }
 
 @keyframes animation1 {
@@ -47,7 +49,7 @@ body {
   flex-direction: row;
   background-color: cyan;
   border: 14px solid blue;
-  justify-content: center;
+  justify-content: space-between;
   transition: all;
   transition-duration: 0.5s;
   border-radius: 10px;
@@ -71,7 +73,7 @@ body {
   flex-direction: row;
   background-color: rgb(52, 238, 15);
   border: 14px solid blue;
-  justify-content: center;
+  justify-content: space-between;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -79,8 +81,8 @@ body {
 .child_menu:hover {
   padding: 10px;
   margin: 10px;
-  background-color: whitesmoke;
-  color: blue;
+  background-color: aqua;
+  color: white;
   transform: scale(1.2, 1.2);
   border-radius: 10px;
   text-decoration: none;
@@ -133,4 +135,174 @@ p:hover {
   font-size: 2vw;
   font-family: "El Messiri", sans-serif;
   color: gold;
+}
+
+table {
+  border: 10px ridge gold;
+  padding: 5px;
+  margin: 5px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+td {
+  border: 4px ridge cyan;
+  font-size: 1.5vw;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  transition: all;
+  transition-duration: 0.5s;
+  text-align: center;
+}
+
+th {
+  color: rgb(23, 56, 225);
+  border: 5px ridge white;
+  padding: 5px;
+  margin: 5px;
+  font-size: 2vw;
+  transition: all;
+  transition-duration: 0.5s;
+  background-color: rgb(235, 16, 206);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td:hover {
+  border: 2px ridge rgb(12, 12, 194);
+  font-size: 1.5vw;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  background-color: yellow;
+}
+
+th:hover {
+  color: blue;
+  border: 10px ridge rgb(34, 236, 34);
+  padding: 5px;
+  margin: 5px;
+  font-size: 2vw;
+  background-color: pink;
+  /* border: 3px ridge rgb(12, 12, 194); */
+}
+
+table:hover {
+  border: 10px ridge greenyellow;
+  padding: 5px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-size: 2vw;
+  font-family: "El Messiri", sans-serif;
+  color: white;
+  transition: all;
+  transition-duration: 1s;
+}
+
+label:hover {
+  font-size: 2vw;
+  font-family: "El Messiri", sans-serif;
+  color: gold;
+}
+
+input {
+  font-size: 1.5vw;
+  width: 20%;
+  font-family: "Antic Slab", serif;
+  transition: all;
+  transition-duration: 0.5s;
+  color: rgb(0, 76, 255);
+}
+
+select {
+  font-size: 1.5vw;
+  width: 20%;
+  font-family: "Antic Slab", serif;
+}
+
+.centeredForm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+form {
+  padding: 20px;
+  border: 10px ridge cyan;
+}
+
+textarea {
+  width: 20%;
+  font-size: 1.5vw;
+  height: 50px;
+  transition: all;
+  transition-duration: 1s;
+  font-family: "Antic Slab", serif;
+}
+
+textarea:focus {
+  width: 20%;
+  font-size: 1.5vw;
+  height: 15vw;
+  font-family: "Antic Slab", serif;
+  border: 10px ridge red;
+  color: rgb(0, 76, 255);
+}
+
+input:hover {
+  font-size: 1.5vw;
+  width: 20%;
+  font-family: "Antic Slab", serif;
+  border: 10px ridge red;
+  color: rgb(0, 76, 255);
+}
+
+select:hover {
+  font-size: 1.5vw;
+  width: 20%;
+  font-family: "Antic Slab", serif;
+  border: 10px ridge red;
+  color: rgb(0, 76, 255);
+}
+
+.Button {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-image: linear-gradient(to right, gold, white, gold);
+  margin: 50px;
+  transition: all;
+  transition-duration: 3s;
+}
+
+.Button:hover {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-image: linear-gradient(to right, cyan, gold, cyan);
+  margin: 50px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  color: blue;
+  border: 5px ridge red;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  color: red;
+  border: 10px ridge red;
+  padding: 5px;
+  font-weight: bold;
 }
