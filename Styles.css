@@ -409,13 +409,12 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
-    border-radius: 2px;
+    border-radius: 10px;
     font-size: 3vw;
     background-color: gold;
     color: blue;
     transition: all;
     transition-duration: 0.5s;
-    border-radius: 2px;
     text-decoration: none;
     border: 2px solid red;
     margin: 3px;
@@ -433,7 +432,7 @@ input[type="reset"]:hover {
   }
 
   .child_menu:hover {
-    border-radius: 2px;
+    border-radius: 10px;
     background-color: aqua;
     font-size: 3vw;
     color: white;
@@ -747,13 +746,12 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
-    border-radius: 2px;
+    border-radius: 10px;
     font-size: 4vw;
     background-color: gold;
     color: blue;
     transition: all;
     transition-duration: 0.5s;
-    border-radius: 2px;
     text-decoration: none;
     border: 2px solid red;
     margin: 3px;
@@ -771,12 +769,11 @@ input[type="reset"]:hover {
   }
 
   .child_menu:hover {
-    border-radius: 2px;
+    border-radius: 10px;
     background-color: aqua;
     font-size: 4vw;
     color: white;
     transform: scale(1.2, 1.2);
-    border-radius: 10px;
     text-decoration: none;
     border: 2px solid black;
     margin: 3px;
