@@ -38,17 +38,23 @@ iframe {
 
     /* border: 10px ridge white; */
     background: linear-gradient(red, yellow);
+    transition: all;
+    transition-duration: 3s;
     /* background-color: black; */
   }
   50% {
     color: rgb(23, 248, 19);
     background: linear-gradient(rgb(0, 64, 255), black);
+    transition: all;
+    transition-duration: 3s;
     /* border: 10px ridge white; */
     /* background-color: gold; */
   }
   100% {
     color: red;
     background: linear-gradient(cyan, silver);
+    transition: all;
+    transition-duration: 3s;
 
     /* border: 10px ridge white; */
     /* background-color: black; */
