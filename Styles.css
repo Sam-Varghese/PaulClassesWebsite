@@ -6,6 +6,10 @@
   color: rgb(52, 238, 15);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fc00ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -148,6 +152,7 @@ p {
   color: black;
   transition: all;
   transition-duration: 1s;
+  user-select: none;
 }
 
 p:hover {
@@ -254,7 +259,7 @@ table:hover {
 label {
   font-size: 2vw;
   font-family: "El Messiri", sans-serif;
-  color: white;
+  color: black;
   transition: all;
   transition-duration: 1s;
 }
@@ -262,7 +267,8 @@ label {
 label:hover {
   font-size: 2vw;
   font-family: "El Messiri", sans-serif;
-  color: gold;
+  color: black;
+  font-weight: 900;
 }
 
 input {
@@ -372,6 +378,10 @@ input[type="reset"]:hover {
       );
     }
   }
+
+  html {
+  scroll-behavior: smooth;
+}
 
   .noUnderline {
     text-decoration: none;
@@ -620,7 +630,7 @@ input[type="reset"]:hover {
   label {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: white;
+    color: black;
     transition: all;
     transition-duration: 1s;
   }
@@ -628,7 +638,8 @@ input[type="reset"]:hover {
   label:hover {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: gold;
+    color: black;
+    font-weight: 900;
   }
 
   input {
@@ -740,6 +751,10 @@ input[type="reset"]:hover {
       );
     }
   }
+
+  html {
+  scroll-behavior: smooth;
+}
 
   iframe {
     height: 2000;
@@ -992,7 +1007,7 @@ input[type="reset"]:hover {
   label {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: white;
+    color: black;
     transition: all;
     transition-duration: 1s;
   }
@@ -1000,7 +1015,8 @@ input[type="reset"]:hover {
   label:hover {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: gold;
+    color: black;
+    font-weight: 900;
   }
 
   input {
