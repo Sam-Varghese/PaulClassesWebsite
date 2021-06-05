@@ -51,44 +51,182 @@
 
       <p>Paul Classes welcomes you to join its live classes for demo purpose. All you need to attend these classes is to register your name once for free!. After registering your name, just select the class you want to join from below table, and you are good to go !</p>
 
+      <div style="overflow-x: scroll;">
       <table class="center">
           <tr>
             <th>Class</th>
             <th>Google Meet Link</th>
+            <th>Copy Meet Link</th>
             <th>Google Classroom Link</th>
+            <th>Copy Classroom Link</th>
           </tr>
           <tr>
               <th>9</th>
               <td><a href="https://meet.google.com/euy-btbu-jck"><button>Google Meet</button></a></td>
+              <td><button id = "9 Google Meet" onclick="fun1()">Copy</button></td>
               <td><a href="https://classroom.google.com/c/Mjk4NTIwNTA3MDMz?cjc=ceejp7d"><button>Google Classroom</button></a></td>
+              <td><button id="9 Google Classroom"  onclick="fun2()">Copy</button></td>
           </tr>
           <tr>
               <th>10</th>
               <td><a href="https://meet.google.com/fjs-tyzz-txs"><button>Google Meet</button></a></td>
+              <td><button id = "10 Google Meet"  onclick="fun3()">Copy</button></td>
               <td><a href="https://classroom.google.com/c/Mjk4NTIwNTA3MDQx?cjc=vxsjpu3"><button>Google Classroom</button></a></td>
+              <td><button id="10 Google Classroom"  onclick="fun4()">Copy</button></td>
           </tr>
           <tr>
               <th>11 Standard</th>
               <td><a href="https://meet.google.com/cfm-ztse-dzc"><button>Google Meet</button></a></td>
+              <td><button id = "11 Standard Google Meet"  onclick="fun5()">Copy</button></td>
               <td><a href="https://classroom.google.com/c/Mjk4NTIwNTA3MDY5?cjc=x342t5u"><button>Google Classroom</button></a></td>
+              <td><button id="11 Standard Google Classroom"  onclick="fun6()">Copy</button></td>
           </tr>
           <tr>
               <th>11 Applied</th>
               <td><a href="https://meet.google.com/cbk-obfe-ngc"><button>Google Meet</button></a></td>
+              <td><button id = "11 Applied Google Meet"  onclick="fun7()">Copy</button></td>
               <td><a href="https://classroom.google.com/c/Mjk4NTIwNTA3MDU1?cjc=yj6mdfa"><button>Google Classroom</button></a></td>
+              <td><button id="11 Applied Google Classroom"  onclick="fun8()">Copy</button></td>
           </tr>
           <tr>
               <th>12 Standard</th>
               <td><a href="https://meet.google.com/dds-rbpn-opc"><button>Google Meet</button></a></td>
+              <td><button id = "12 Standard Google Meet"  onclick="fun9()">Copy</button></td>
               <td><a href="https://classroom.google.com/c/Mjk4NTIwNTA3MDg2?cjc=gk7otjz"><button>Google Classroom</button></a></td>
+              <td><button id="12 Standard Google Classroom"  onclick="fun9()">Copy</button></td>
           </tr>
           <tr>
               <th>12 Applied</th>
               <td><a href="https://meet.google.com/cbi-envz-hfx"><button>Google Meet</button></a></td>
+              <td><button id = "12 Applied Google Meet"  onclick="fun11()">Copy</button></td>
               <td><a href="https://classroom.google.com/c/Mjk4NTIxNzQwOTk2?cjc=v5nvjit"><button>Google Classroom</button></a></td>
+              <td><button id="12 Applied Google Classroom"  onclick="fun12()">Copy</button></td>
           </tr>
       </table>
-
     </div>
+
+    <script>
+      function fun1(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://meet.google.com/euy-btbu-jck");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun2(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://classroom.google.com/c/Mjk4NTIwNTA3MDMz?cjc=ceejp7d");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun3(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://meet.google.com/fjs-tyzz-txs");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun4(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://classroom.google.com/c/Mjk4NTIwNTA3MDQx?cjc=vxsjpu3");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun5(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://meet.google.com/cfm-ztse-dzc");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun6(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://classroom.google.com/c/Mjk4NTIwNTA3MDY5?cjc=x342t5u");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun7(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://meet.google.com/cbk-obfe-ngc");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun8(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://classroom.google.com/c/Mjk4NTIwNTA3MDU1?cjc=yj6mdfa");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun9(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://meet.google.com/dds-rbpn-opc");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun10(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://classroom.google.com/c/Mjk4NTIwNTA3MDg2?cjc=gk7otjz");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun11(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://meet.google.com/cbi-envz-hfx");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+      function fun12(){
+        const input=document.createElement('input');
+        input.setAttribute('value', "https://classroom.google.com/c/Mjk4NTIxNzQwOTk2?cjc=v5nvjit");
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("Text copied")
+        return result;
+      };
+    </script>
+
   </body>
 </html>

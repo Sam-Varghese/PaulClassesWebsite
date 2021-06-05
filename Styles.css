@@ -1,16 +1,3 @@
-@keyframes animationbg {
-  from {
-    background-image: linear-gradient(whitesmoke, cyan, blue);
-  }
-  to {
-    background-image: linear-gradient(
-      rgb(235, 228, 16),
-      rgb(29, 211, 211),
-      rgb(13, 13, 186)
-    );
-  }
-}
-
 .noUnderline {
   text-decoration: none;
 }
@@ -20,10 +7,18 @@
 }
 
 body {
-  animation-name: animationbg;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  transition: all;
+  background: #fc00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-repeat: no-repeat;
   box-sizing: border-box;
   background-size: contain;
@@ -35,20 +30,27 @@ iframe {
   border: 5px ridge white;
   padding: 1px;
   margin: 1px;
-  
 }
 
 @keyframes animation1 {
-  10% {
-    color: orange;
+  0% {
+    color: White;
+
+    /* border: 10px ridge white; */
+    background: linear-gradient(red, yellow);
     /* background-color: black; */
   }
   50% {
-    color: blue;
+    color: rgb(23, 248, 19);
+    background: linear-gradient(rgb(0, 64, 255), black);
+    /* border: 10px ridge white; */
     /* background-color: gold; */
   }
-  75% {
+  100% {
     color: red;
+    background: linear-gradient(cyan, silver);
+
+    /* border: 10px ridge white; */
     /* background-color: black; */
   }
 }
@@ -107,9 +109,9 @@ h1 {
   margin: 1vw 5vw 1vw 5vw;
   animation-name: animation1;
   animation-iteration-count: infinite;
-  animation-duration: 5s;
+  animation-duration: 10s;
   transition: all;
-  transition-duration: 2s;
+  transition-duration: 3s;
 }
 
 h1:hover {
@@ -137,7 +139,7 @@ img:hover {
 p {
   font-size: 2vw;
   font-family: "El Messiri", sans-serif;
-  color: white;
+  color: black;
   transition: all;
   transition-duration: 1s;
 }
@@ -145,7 +147,8 @@ p {
 p:hover {
   font-size: 2vw;
   font-family: "El Messiri", sans-serif;
-  color: gold;
+  /* color: gold; */
+  font-weight: 900;
 }
 
 button {
@@ -161,6 +164,23 @@ button {
     greenyellow
   );
   border: 20px ridge white;
+  transition: all;
+  transition-duration: 1s;
+}
+
+button:hover {
+  font-size: 2vw;
+  border-radius: 20px;
+  color: blue;
+  background-image: linear-gradient(
+    to right,
+    greenyellow,
+    cyan,
+    white,
+    cyan,
+    greenyellow
+  );
+  border: 20px ridge red;
 }
 
 table {
@@ -356,26 +376,42 @@ input[type="reset"]:hover {
   }
 
   body {
-    animation-name: animationbg;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    transition: all;
+    background: #fc00ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #00dbde,
+      #fc00ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #00dbde,
+      #fc00ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-repeat: no-repeat;
     box-sizing: border-box;
     background-size: contain;
   }
 
   @keyframes animation1 {
-    10% {
-      color: orange;
+    0% {
+      color: White;
+
+      /* border: 10px ridge white; */
+      background: linear-gradient(red, yellow);
       /* background-color: black; */
     }
     50% {
-      color: blue;
+      color: rgb(23, 248, 19);
+      background: linear-gradient(rgb(0, 64, 255), black);
+      /* border: 10px ridge white; */
       /* background-color: gold; */
     }
-    75% {
+    100% {
       color: red;
+      background: linear-gradient(cyan, silver);
+
+      /* border: 10px ridge white; */
       /* background-color: black; */
     }
   }
@@ -393,6 +429,25 @@ input[type="reset"]:hover {
       greenyellow
     );
     border: 2px ridge white;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  button:hover {
+    font-size: 3vw;
+    border-radius: 2px;
+    color: blue;
+    background-image: linear-gradient(
+      to right,
+      greenyellow,
+      cyan,
+      white,
+      cyan,
+      greenyellow
+    );
+    border: 2px ridge red;
+    transition: all;
+    transition-duration: 1s;
   }
 
   .parent_menu {
@@ -480,7 +535,7 @@ input[type="reset"]:hover {
   p {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: white;
+    color: black;
     transition: all;
     transition-duration: 1s;
   }
@@ -488,7 +543,8 @@ input[type="reset"]:hover {
   p:hover {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: gold;
+    color: black;
+    font-weight: 900;
   }
 
   table {
@@ -693,26 +749,42 @@ input[type="reset"]:hover {
   }
 
   body {
-    animation-name: animationbg;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    transition: all;
+    background: #fc00ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #00dbde,
+      #fc00ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #00dbde,
+      #fc00ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-repeat: no-repeat;
     box-sizing: border-box;
     background-size: contain;
   }
 
   @keyframes animation1 {
-    10% {
-      color: orange;
+    0% {
+      color: White;
+
+      /* border: 10px ridge white; */
+      background: linear-gradient(red, yellow);
       /* background-color: black; */
     }
     50% {
-      color: blue;
+      color: rgb(23, 248, 19);
+      background: linear-gradient(rgb(0, 64, 255), black);
+      /* border: 10px ridge white; */
       /* background-color: gold; */
     }
-    75% {
+    100% {
       color: red;
+      background: linear-gradient(cyan, silver);
+
+      /* border: 10px ridge white; */
       /* background-color: black; */
     }
   }
@@ -743,11 +815,30 @@ input[type="reset"]:hover {
       greenyellow
     );
     border: 2px ridge white;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  button:hover {
+    font-size: 3.3vw;
+    border-radius: 2px;
+    color: blue;
+    background-image: linear-gradient(
+      to right,
+      greenyellow,
+      cyan,
+      white,
+      cyan,
+      greenyellow
+    );
+    border: 2px ridge red;
+    transition: all;
+    transition-duration: 1s;
   }
 
   .child_menu {
     border-radius: 10px;
-    font-size: 4vw;
+    font-size: 3vw;
     background-color: gold;
     color: blue;
     transition: all;
@@ -782,7 +873,7 @@ input[type="reset"]:hover {
   h1 {
     color: blue;
     font-family: "Norican", cursive;
-    font-size: 15vw;
+    font-size: 10vw;
     margin: 1vw 5vw 1vw 5vw;
     animation-name: animation1;
     animation-iteration-count: infinite;
@@ -793,7 +884,7 @@ input[type="reset"]:hover {
 
   h1:hover {
     font-family: "Norican", cursive;
-    font-size: 15vw;
+    font-size: 12vw;
     margin: 1vw 5vw 1vw 5vw;
     color: rgb(50, 196, 21);
   }
@@ -814,17 +905,18 @@ input[type="reset"]:hover {
   }
 
   p {
-    font-size: 5vmax;
+    font-size: 3vw;
     font-family: "El Messiri", sans-serif;
-    color: white;
+    color: black;
     transition: all;
     transition-duration: 1s;
   }
 
   p:hover {
-    font-size: 5vw;
+    font-size: 3vw;
     font-family: "El Messiri", sans-serif;
-    color: gold;
+    color: black;
+    font-weight: 900;
   }
 
   table {
@@ -839,7 +931,7 @@ input[type="reset"]:hover {
 
   td {
     border: 4px ridge cyan;
-    font-size: 5vw;
+    font-size: 3vw;
     color: white;
     padding: 5px;
     margin: 5px;
@@ -853,7 +945,7 @@ input[type="reset"]:hover {
     border: 5px ridge white;
     padding: 5px;
     margin: 5px;
-    font-size: 5vw;
+    font-size: 3vw;
     transition: all;
     transition-duration: 0.5s;
     background-color: rgb(235, 16, 206);
@@ -866,7 +958,7 @@ input[type="reset"]:hover {
 
   td:hover {
     border: 2px ridge rgb(12, 12, 194);
-    font-size: 5vw;
+    font-size: 4vw;
     color: black;
     padding: 5px;
     margin: 5px;
@@ -878,7 +970,7 @@ input[type="reset"]:hover {
     border: 5px ridge rgb(34, 236, 34);
     padding: 5px;
     margin: 5px;
-    font-size: 5vw;
+    font-size: 4vw;
     background-color: pink;
     /* border: 3px ridge rgb(12, 12, 194); */
   }
