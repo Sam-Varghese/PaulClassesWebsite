@@ -380,8 +380,8 @@ input[type="reset"]:hover {
   }
 
   html {
-  scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;
+  }
 
   .noUnderline {
     text-decoration: none;
@@ -506,7 +506,7 @@ input[type="reset"]:hover {
     border-radius: 10px;
     background-color: aqua;
     font-size: 3vw;
-    color: white;
+    color: blue;
     transform: scale(1.2, 1.2);
     border-radius: 10px;
     text-decoration: none;
@@ -753,8 +753,8 @@ input[type="reset"]:hover {
   }
 
   html {
-  scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;
+  }
 
   iframe {
     height: 2000;
@@ -884,7 +884,7 @@ input[type="reset"]:hover {
     border-radius: 10px;
     background-color: aqua;
     font-size: 4vw;
-    color: white;
+    color: blue;
     transform: scale(1.2, 1.2);
     text-decoration: none;
     border: 2px solid black;
