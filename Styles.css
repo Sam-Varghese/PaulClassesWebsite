@@ -174,7 +174,7 @@ button {
     cyan,
     greenyellow
   );
-  border: 20px ridge white;
+  border: 20px ridge gold;
   transition: all;
   transition-duration: 1s;
 }
@@ -191,7 +191,7 @@ button:hover {
     cyan,
     greenyellow
   );
-  border: 20px ridge red;
+  border: 20px ridge blue;
 }
 
 table {
@@ -235,7 +235,7 @@ td:hover {
   color: black;
   padding: 5px;
   margin: 5px;
-  background-color: yellow;
+  background-color: cyan;
 }
 
 th:hover {
@@ -444,7 +444,7 @@ input[type="reset"]:hover {
       cyan,
       greenyellow
     );
-    border: 2px ridge white;
+    border: 5px ridge gold;
     transition: all;
     transition-duration: 1s;
   }
@@ -461,7 +461,7 @@ input[type="reset"]:hover {
       cyan,
       greenyellow
     );
-    border: 2px ridge red;
+    border: 5px ridge blue;
     transition: all;
     transition-duration: 1s;
   }
@@ -606,7 +606,7 @@ input[type="reset"]:hover {
     color: black;
     padding: 5px;
     margin: 5px;
-    background-color: yellow;
+    background-color: cyan;
   }
 
   th:hover {
