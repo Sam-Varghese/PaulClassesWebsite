@@ -160,7 +160,7 @@ p:hover {
   font-family: "El Messiri", sans-serif;
   /* color: gold; */
   font-weight: 900;
-  color: black
+  color: white
 }
 
 button {
@@ -268,7 +268,7 @@ label {
 label:hover {
   font-size: 2vw;
   font-family: "El Messiri", sans-serif;
-  color: black;
+  color: white;
   font-weight: 900;
 }
 
@@ -552,7 +552,7 @@ input[type="reset"]:hover {
   p {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: black;
+    color: white;
     transition: all;
     transition-duration: 1s;
   }
@@ -560,7 +560,7 @@ input[type="reset"]:hover {
   p:hover {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: black;
+    color: white;
     font-weight: 900;
   }
 
@@ -631,7 +631,7 @@ input[type="reset"]:hover {
   label {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: black;
+    color: white;
     transition: all;
     transition-duration: 1s;
   }
@@ -639,7 +639,7 @@ input[type="reset"]:hover {
   label:hover {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: black;
+    color: white;
     font-weight: 900;
   }
 
@@ -929,7 +929,7 @@ input[type="reset"]:hover {
   p {
     font-size: 3vw;
     font-family: "El Messiri", sans-serif;
-    color: black;
+    color: white;
     transition: all;
     transition-duration: 1s;
   }
@@ -937,7 +937,7 @@ input[type="reset"]:hover {
   p:hover {
     font-size: 3vw;
     font-family: "El Messiri", sans-serif;
-    color: black;
+    color: white;
     font-weight: 900;
   }
 
@@ -1008,7 +1008,7 @@ input[type="reset"]:hover {
   label {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: black;
+    color: white;
     transition: all;
     transition-duration: 1s;
   }
@@ -1016,7 +1016,7 @@ input[type="reset"]:hover {
   label:hover {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: black;
+    color: white;
     font-weight: 900;
   }
 
