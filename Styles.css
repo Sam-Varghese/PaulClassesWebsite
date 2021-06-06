@@ -149,7 +149,7 @@ img:hover {
 p {
   font-size: 2vw;
   font-family: "El Messiri", sans-serif;
-  color: black;
+  color: white;
   transition: all;
   transition-duration: 1s;
   user-select: none;
@@ -160,6 +160,7 @@ p:hover {
   font-family: "El Messiri", sans-serif;
   /* color: gold; */
   font-weight: 900;
+  color: black
 }
 
 button {
@@ -259,7 +260,7 @@ table:hover {
 label {
   font-size: 2vw;
   font-family: "El Messiri", sans-serif;
-  color: black;
+  color: white;
   transition: all;
   transition-duration: 1s;
 }
