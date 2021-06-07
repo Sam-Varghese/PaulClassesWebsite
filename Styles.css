@@ -111,7 +111,11 @@ iframe {
 .parent_menu:hover {
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(rgb(10, 245, 18), rgb(26, 49, 20),rgb(23, 233, 12));
+  background-image: linear-gradient(
+    rgb(10, 245, 18),
+    rgb(26, 49, 20),
+    rgb(23, 233, 12)
+  );
   border: 14px solid blue;
   justify-content: space-between;
   border-radius: 10px;
@@ -258,12 +262,12 @@ td:hover {
 }
 
 th:hover {
-  color: blue;
-  border: 10px ridge rgb(34, 236, 34);
+  color: white;
+  border: 10px ridge white;
   padding: 5px;
   margin: 5px;
   font-size: 2vw;
-  background-color: pink;
+  background-color: rgb(14, 25, 243);
   /* border: 3px ridge rgb(12, 12, 194); */
 }
 
@@ -429,22 +433,22 @@ input[type="reset"]:hover {
   }
 
   .logo {
-  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
-  color: white;
-  font-weight: 500;
-  font-size: 5vw;
-  border: 5px ridge gold;
-  transition: all;
-  transition-duration: 2s;
-}
+    background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+    color: white;
+    font-weight: 500;
+    font-size: 5vw;
+    border: 5px ridge gold;
+    transition: all;
+    transition-duration: 2s;
+  }
 
-.logo:hover {
-  background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
-  color: white;
-  font-size: 6vw;
-  font-weight: 500;
-  border: 5px ridge gold;
-}
+  .logo:hover {
+    background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
+    color: white;
+    font-size: 6vw;
+    font-weight: 500;
+    border: 5px ridge gold;
+  }
 
   @keyframes animation1 {
     0% {
@@ -647,12 +651,12 @@ input[type="reset"]:hover {
   }
 
   th:hover {
-    color: blue;
-    border: 5px ridge rgb(34, 236, 34);
+    color: white;
+    border: 5px ridge white;
     padding: 5px;
     margin: 5px;
     font-size: 5vw;
-    background-color: pink;
+    background-color: rgb(14, 25, 243);
     /* border: 3px ridge rgb(12, 12, 194); */
   }
 
@@ -820,22 +824,22 @@ input[type="reset"]:hover {
   }
 
   .logo {
-  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
-  color: white;
-  font-weight: 500;
-  font-size: 3vw;
-  border: 5px ridge gold;
-  transition: all;
-  transition-duration: 2s;
-}
+    background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+    color: white;
+    font-weight: 500;
+    font-size: 3vw;
+    border: 5px ridge gold;
+    transition: all;
+    transition-duration: 2s;
+  }
 
-.logo:hover {
-  background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
-  color: white;
-  font-size: 4vw;
-  font-weight: 500;
-  border: 5px ridge gold;
-}
+  .logo:hover {
+    background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
+    color: white;
+    font-size: 4vw;
+    font-weight: 500;
+    border: 5px ridge gold;
+  }
 
   @keyframes animation1 {
     0% {
@@ -1038,12 +1042,12 @@ input[type="reset"]:hover {
   }
 
   th:hover {
-    color: blue;
-    border: 4px ridge rgb(34, 236, 34);
+    color: white;
+    border: 4px ridge white;
     padding: 5px;
     margin: 5px;
     font-size: 2.7vw;
-    background-color: pink;
+    background-color: rgb(14, 25, 243);
     /* border: 3px ridge rgb(12, 12, 194); */
   }
 
@@ -1166,8 +1170,6 @@ input[type="reset"]:hover {
   }
 }
 
-
-
 @media screen and (min-width: 646px) and (max-width: 1024px) and (orientation: portrait) {
   @keyframes animationbg {
     from {
@@ -1183,22 +1185,22 @@ input[type="reset"]:hover {
   }
 
   .logo {
-  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
-  color: white;
-  font-weight: 500;
-  font-size: 3vw;
-  border: 5px ridge gold;
-  transition: all;
-  transition-duration: 2s;
-}
+    background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+    color: white;
+    font-weight: 500;
+    font-size: 3vw;
+    border: 5px ridge gold;
+    transition: all;
+    transition-duration: 2s;
+  }
 
-.logo:hover {
-  background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
-  color: white;
-  font-size: 4vw;
-  font-weight: 500;
-  border: 5px ridge gold;
-}
+  .logo:hover {
+    background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
+    color: white;
+    font-size: 4vw;
+    font-weight: 500;
+    border: 5px ridge gold;
+  }
 
   html {
     scroll-behavior: smooth;
@@ -1435,12 +1437,12 @@ input[type="reset"]:hover {
   }
 
   th:hover {
-    color: blue;
-    border: 5px ridge rgb(34, 236, 34);
+    color: white;
+    border: 5px ridge white;
     padding: 5px;
     margin: 5px;
     font-size: 4vw;
-    background-color: pink;
+    background-color: rgb(14, 25, 243);
     /* border: 3px ridge rgb(12, 12, 194); */
   }
 
@@ -1578,22 +1580,22 @@ input[type="reset"]:hover {
   }
 
   .logo {
-  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
-  color: white;
-  font-weight: 500;
-  font-size: 2vw;
-  border: 5px ridge gold;
-  transition: all;
-  transition-duration: 2s;
-}
+    background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+    color: white;
+    font-weight: 500;
+    font-size: 2vw;
+    border: 5px ridge gold;
+    transition: all;
+    transition-duration: 2s;
+  }
 
-.logo:hover {
-  background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
-  color: white;
-  font-size: 2.4vw;
-  font-weight: 500;
-  border: 5px ridge gold;
-}
+  .logo:hover {
+    background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
+    color: white;
+    font-size: 2.4vw;
+    font-weight: 500;
+    border: 5px ridge gold;
+  }
 
   html {
     scroll-behavior: smooth;
@@ -1830,12 +1832,12 @@ input[type="reset"]:hover {
   }
 
   th:hover {
-    color: blue;
-    border: 5px ridge rgb(34, 236, 34);
+    color: white;
+    border: 5px ridge white;
     padding: 5px;
     margin: 5px;
     font-size: 2.5vw;
-    background-color: pink;
+    background-color: rgb(14, 25, 243);
     /* border: 3px ridge rgb(12, 12, 194); */
   }
 
