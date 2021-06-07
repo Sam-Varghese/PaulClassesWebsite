@@ -135,6 +135,7 @@ iframe {
 }
 
 h1 {
+  user-select: none;
   color: blue;
   font-family: "Norican", cursive;
   font-size: 5vw;
@@ -147,6 +148,7 @@ h1 {
 }
 
 h1:hover {
+  user-select: none;
   font-family: "Norican", cursive;
   font-size: 6vw;
   margin: 1vw 5vw 1vw 5vw;
@@ -560,6 +562,7 @@ input[type="reset"]:hover {
   }
 
   h1 {
+    user-select: none;
     color: blue;
     font-family: "Norican", cursive;
     font-size: 15vw;
@@ -572,6 +575,7 @@ input[type="reset"]:hover {
   }
 
   h1:hover {
+    user-select: none;
     font-family: "Norican", cursive;
     font-size: 16vw;
     margin: 1vw 5vw 1vw 5vw;
@@ -953,6 +957,7 @@ input[type="reset"]:hover {
   }
 
   h1 {
+    user-select: none;
     color: blue;
     font-family: "Norican", cursive;
     font-size: 5vw;
@@ -965,6 +970,7 @@ input[type="reset"]:hover {
   }
 
   h1:hover {
+    user-select: none;
     font-family: "Norican", cursive;
     font-size: 6vw;
     margin: 1vw 5vw 1vw 5vw;
@@ -1350,6 +1356,7 @@ input[type="reset"]:hover {
   }
 
   h1 {
+    user-select: none;
     color: blue;
     font-family: "Norican", cursive;
     font-size: 10vw;
@@ -1362,6 +1369,7 @@ input[type="reset"]:hover {
   }
 
   h1:hover {
+    user-select: none;
     font-family: "Norican", cursive;
     font-size: 12vw;
     margin: 1vw 5vw 1vw 5vw;
@@ -1747,6 +1755,7 @@ input[type="reset"]:hover {
   }
 
   h1 {
+    user-select: none;
     color: blue;
     font-family: "Norican", cursive;
     font-size: 5vw;
@@ -1759,6 +1768,7 @@ input[type="reset"]:hover {
   }
 
   h1:hover {
+    user-select: none;
     font-family: "Norican", cursive;
     font-size: 5.5vw;
     margin: 1vw 5vw 1vw 5vw;
