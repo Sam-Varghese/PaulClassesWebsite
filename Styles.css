@@ -105,7 +105,7 @@ iframe {
   transition-duration: 0.5s;
   border-radius: 10px;
   text-decoration: none;
-  border: 2px solid red;
+  border: 10px solid white;
 }
 
 .parent_menu:hover {
@@ -131,7 +131,7 @@ iframe {
   transform: scale(1.2, 1.2);
   border-radius: 10px;
   text-decoration: none;
-  border: 2px solid black;
+  border: 10px solid white;
 }
 
 h1 {
