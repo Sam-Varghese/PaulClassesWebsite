@@ -183,6 +183,7 @@ p:hover {
   /* color: gold; */
   font-weight: 900;
   color: rgb(22, 3, 6);
+  user-select: none;
 }
 
 button {
@@ -237,6 +238,7 @@ td {
 }
 
 th {
+  user-select: none;
   color: rgb(23, 56, 225);
   border: 5px ridge white;
   padding: 5px;
@@ -245,6 +247,7 @@ th {
   transition: all;
   transition-duration: 0.5s;
   background-color: rgb(235, 16, 206);
+  
 }
 
 .center {
@@ -262,6 +265,7 @@ td:hover {
 }
 
 th:hover {
+  user-select: none;
   color: white;
   border: 10px ridge white;
   padding: 5px;
@@ -626,6 +630,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    user-select: none;
     color: rgb(23, 56, 225);
     border: 5px ridge white;
     padding: 5px;
@@ -651,6 +656,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    user-select: none;
     color: white;
     border: 5px ridge white;
     padding: 5px;
@@ -1017,6 +1023,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    user-select: none;
     color: rgb(23, 56, 225);
     border: 3px ridge white;
     padding: 5px;
@@ -1042,6 +1049,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    user-select: none;
     color: white;
     border: 4px ridge white;
     padding: 5px;
@@ -1412,6 +1420,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    user-select: none;
     color: rgb(23, 56, 225);
     border: 5px ridge white;
     padding: 5px;
@@ -1437,6 +1446,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    user-select: none;
     color: white;
     border: 5px ridge white;
     padding: 5px;
@@ -1807,6 +1817,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    user-select: none;
     color: rgb(23, 56, 225);
     border: 5px ridge white;
     padding: 5px;
@@ -1832,6 +1843,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    user-select: none;
     color: white;
     border: 5px ridge white;
     padding: 5px;
