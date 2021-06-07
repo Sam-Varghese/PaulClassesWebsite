@@ -10,6 +10,24 @@ html {
   scroll-behavior: smooth;
 }
 
+.logo {
+  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+  color: white;
+  font-weight: 500;
+  font-size: 2vw;
+  border: 10px ridge gold;
+  transition: all;
+  transition-duration: 2s;
+}
+
+.logo:hover {
+  background-image: linear-gradient(cyan, rgb(46, 46, 6), cyan);
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 500;
+  border: 10px ridge gold;
+}
+
 body {
   background: #fc00ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -68,11 +86,11 @@ iframe {
 .parent_menu {
   display: flex;
   flex-direction: row;
-  background-color: cyan;
+  background-image: linear-gradient(cyan, rgb(0, 21, 255), cyan);
   border: 14px solid blue;
   justify-content: space-between;
   transition: all;
-  transition-duration: 0.5s;
+  transition-duration: 2s;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -93,7 +111,7 @@ iframe {
 .parent_menu:hover {
   display: flex;
   flex-direction: row;
-  background-color: rgb(52, 238, 15);
+  background-image: linear-gradient(rgb(10, 245, 18), rgb(26, 49, 20),rgb(23, 233, 12));
   border: 14px solid blue;
   justify-content: space-between;
   border-radius: 10px;
@@ -160,7 +178,7 @@ p:hover {
   font-family: "El Messiri", sans-serif;
   /* color: gold; */
   font-weight: 900;
-  color: white
+  color: rgb(22, 3, 6);
 }
 
 button {
@@ -366,7 +384,7 @@ input[type="reset"]:hover {
   font-weight: bold;
 }
 
-@media screen and (max-width: 646px) {
+@media screen and (max-width: 646px) and (orientation: portrait) {
   @keyframes animationbg {
     from {
       background-image: linear-gradient(whitesmoke, cyan, blue);
@@ -409,6 +427,24 @@ input[type="reset"]:hover {
     box-sizing: border-box;
     background-size: contain;
   }
+
+  .logo {
+  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+  color: white;
+  font-weight: 500;
+  font-size: 5vw;
+  border: 5px ridge gold;
+  transition: all;
+  transition-duration: 2s;
+}
+
+.logo:hover {
+  background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
+  color: white;
+  font-size: 6vw;
+  font-weight: 500;
+  border: 5px ridge gold;
+}
 
   @keyframes animation1 {
     0% {
@@ -529,7 +565,7 @@ input[type="reset"]:hover {
 
   h1:hover {
     font-family: "Norican", cursive;
-    font-size: 15vw;
+    font-size: 16vw;
     margin: 1vw 5vw 1vw 5vw;
     color: rgb(50, 196, 21);
   }
@@ -560,7 +596,7 @@ input[type="reset"]:hover {
   p:hover {
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: white;
+    color: black;
     font-weight: 900;
   }
 
@@ -739,7 +775,7 @@ input[type="reset"]:hover {
   }
 }
 
-@media screen and (min-width: 646px) and (max-width: 1024px) {
+@media screen and (max-width: 646px) and (orientation: landscape) {
   @keyframes animationbg {
     from {
       background-image: linear-gradient(whitesmoke, cyan, blue);
@@ -752,6 +788,812 @@ input[type="reset"]:hover {
       );
     }
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .noUnderline {
+    text-decoration: none;
+  }
+
+  #link {
+    color: rgb(52, 238, 15);
+  }
+
+  body {
+    background: #fc00ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #00dbde,
+      #fc00ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #00dbde,
+      #fc00ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: contain;
+  }
+
+  .logo {
+  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+  color: white;
+  font-weight: 500;
+  font-size: 3vw;
+  border: 5px ridge gold;
+  transition: all;
+  transition-duration: 2s;
+}
+
+.logo:hover {
+  background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
+  color: white;
+  font-size: 4vw;
+  font-weight: 500;
+  border: 5px ridge gold;
+}
+
+  @keyframes animation1 {
+    0% {
+      color: White;
+
+      /* border: 10px ridge white; */
+      background: linear-gradient(red, yellow);
+      /* background-color: black; */
+    }
+    50% {
+      color: rgb(23, 248, 19);
+      background: linear-gradient(rgb(0, 64, 255), black);
+      /* border: 10px ridge white; */
+      /* background-color: gold; */
+    }
+    100% {
+      color: red;
+      background: linear-gradient(cyan, silver);
+
+      /* border: 10px ridge white; */
+      /* background-color: black; */
+    }
+  }
+
+  button {
+    font-size: 2vw;
+    border-radius: 2px;
+    color: blue;
+    background-image: linear-gradient(
+      to right,
+      greenyellow,
+      cyan,
+      white,
+      cyan,
+      greenyellow
+    );
+    border: 5px ridge gold;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  button:hover {
+    font-size: 2.4vw;
+    border-radius: 2px;
+    color: blue;
+    background-image: linear-gradient(
+      to right,
+      greenyellow,
+      cyan,
+      white,
+      cyan,
+      greenyellow
+    );
+    border: 5px ridge blue;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  .parent_menu {
+    display: flex;
+    flex-direction: row;
+    background-color: cyan;
+    border: 2px solid blue;
+    justify-content: center;
+    transition: all;
+    transition-duration: 0.5s;
+    border-radius: 2px;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+
+  .child_menu {
+    border-radius: 10px;
+    font-size: 2vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 2px solid red;
+    margin: 3px;
+  }
+
+  .parent_menu:hover {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 238, 15);
+    border: 2px solid blue;
+    justify-content: center;
+    border-radius: 2px;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+
+  .child_menu:hover {
+    border-radius: 10px;
+    background-color: aqua;
+    font-size: 3vw;
+    color: blue;
+    transform: scale(1.2, 1.2);
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 3px;
+  }
+
+  h1 {
+    color: blue;
+    font-family: "Norican", cursive;
+    font-size: 5vw;
+    margin: 1vw 5vw 1vw 5vw;
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transition: all;
+    transition-duration: 2s;
+  }
+
+  h1:hover {
+    font-family: "Norican", cursive;
+    font-size: 6vw;
+    margin: 1vw 5vw 1vw 5vw;
+    color: rgb(50, 196, 21);
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transition: all;
+    transition-duration: 1s;
+    border: 1vw ridge whitesmoke;
+  }
+
+  img:hover {
+    transform: scale(1.2, 1.2);
+    border: 1vw ridge blue;
+  }
+
+  p {
+    font-size: 3vw;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  p:hover {
+    font-size: 3.4vw;
+    font-family: "El Messiri", sans-serif;
+    color: black;
+    font-weight: 900;
+  }
+
+  table {
+    border: 2px ridge gold;
+    padding: 5px;
+    margin: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+    /* table-layout: fixed; */
+    /* width: 100%; */
+  }
+
+  td {
+    border: 3px ridge cyan;
+    font-size: 2vw;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+    text-align: center;
+  }
+
+  th {
+    color: rgb(23, 56, 225);
+    border: 3px ridge white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 2.5vw;
+    transition: all;
+    transition-duration: 0.5s;
+    background-color: rgb(235, 16, 206);
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td:hover {
+    border: 2px ridge rgb(12, 12, 194);
+    font-size: 2.3vw;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    background-color: cyan;
+  }
+
+  th:hover {
+    color: blue;
+    border: 4px ridge rgb(34, 236, 34);
+    padding: 5px;
+    margin: 5px;
+    font-size: 2.7vw;
+    background-color: pink;
+    /* border: 3px ridge rgb(12, 12, 194); */
+  }
+
+  table:hover {
+    border: 5px ridge greenyellow;
+    padding: 5px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  label {
+    font-size: 3vw;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  label:hover {
+    font-size: 3.5vw;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    font-weight: 900;
+  }
+
+  input {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+    transition: all;
+    transition-duration: 0.5s;
+    color: rgb(0, 76, 255);
+    margin: 5px;
+  }
+
+  select {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+  }
+
+  .centeredForm {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2px;
+  }
+
+  form {
+    padding: 2px;
+    border: 2px ridge cyan;
+  }
+
+  textarea {
+    width: 20%;
+    font-size: 5vw;
+    height: 20px;
+    transition: all;
+    transition-duration: 1s;
+    font-family: "Antic Slab", serif;
+  }
+
+  textarea:focus {
+    width: 20%;
+    font-size: 5vw;
+    height: 15vw;
+    font-family: "Antic Slab", serif;
+    border: 2px ridge red;
+    color: rgb(0, 76, 255);
+  }
+
+  input:hover {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+    border: 2px ridge red;
+    color: rgb(0, 76, 255);
+  }
+
+  select:hover {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+    border: 2px ridge red;
+    color: rgb(0, 76, 255);
+  }
+
+  .Button {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: linear-gradient(to right, gold, white, gold);
+    margin: 2px;
+    transition: all;
+    transition-duration: 3s;
+  }
+
+  .Button:hover {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: linear-gradient(to right, cyan, gold, cyan);
+    margin: 2px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    color: blue;
+    border: 2px ridge red;
+    font-weight: bold;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    color: red;
+    border: 5px ridge red;
+    padding: 5px;
+    font-weight: bold;
+  }
+}
+
+
+
+@media screen and (min-width: 646px) and (max-width: 1024px) and (orientation: portrait) {
+  @keyframes animationbg {
+    from {
+      background-image: linear-gradient(whitesmoke, cyan, blue);
+    }
+    to {
+      background-image: linear-gradient(
+        rgb(235, 228, 16),
+        rgb(29, 211, 211),
+        rgb(13, 13, 186)
+      );
+    }
+  }
+
+  .logo {
+  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+  color: white;
+  font-weight: 500;
+  font-size: 3vw;
+  border: 5px ridge gold;
+  transition: all;
+  transition-duration: 2s;
+}
+
+.logo:hover {
+  background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
+  color: white;
+  font-size: 4vw;
+  font-weight: 500;
+  border: 5px ridge gold;
+}
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  iframe {
+    height: 2000;
+    width: 95%;
+  }
+
+  .noUnderline {
+    text-decoration: none;
+  }
+
+  #link {
+    color: rgb(52, 238, 15);
+  }
+
+  body {
+    background: #fc00ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #00dbde,
+      #fc00ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #00dbde,
+      #fc00ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: contain;
+  }
+
+  @keyframes animation1 {
+    0% {
+      color: White;
+
+      /* border: 10px ridge white; */
+      background: linear-gradient(red, yellow);
+      /* background-color: black; */
+    }
+    50% {
+      color: rgb(23, 248, 19);
+      background: linear-gradient(rgb(0, 64, 255), black);
+      /* border: 10px ridge white; */
+      /* background-color: gold; */
+    }
+    100% {
+      color: red;
+      background: linear-gradient(cyan, silver);
+
+      /* border: 10px ridge white; */
+      /* background-color: black; */
+    }
+  }
+
+  .parent_menu {
+    display: flex;
+    flex-direction: row;
+    background-color: cyan;
+    border: 2px solid blue;
+    justify-content: center;
+    transition: all;
+    transition-duration: 0.5s;
+    border-radius: 2px;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+
+  button {
+    font-size: 3vw;
+    border-radius: 2px;
+    color: blue;
+    background-image: linear-gradient(
+      to right,
+      greenyellow,
+      cyan,
+      white,
+      cyan,
+      greenyellow
+    );
+    border: 2px ridge white;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  button:hover {
+    font-size: 3.3vw;
+    border-radius: 2px;
+    color: blue;
+    background-image: linear-gradient(
+      to right,
+      greenyellow,
+      cyan,
+      white,
+      cyan,
+      greenyellow
+    );
+    border: 2px ridge red;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  .child_menu {
+    border-radius: 10px;
+    font-size: 3vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 2px solid red;
+    margin: 3px;
+  }
+
+  .parent_menu:hover {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 238, 15);
+    border: 2px solid blue;
+    justify-content: center;
+    border-radius: 2px;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+
+  .child_menu:hover {
+    border-radius: 10px;
+    background-color: aqua;
+    font-size: 4vw;
+    color: blue;
+    transform: scale(1.2, 1.2);
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 3px;
+  }
+
+  h1 {
+    color: blue;
+    font-family: "Norican", cursive;
+    font-size: 10vw;
+    margin: 1vw 5vw 1vw 5vw;
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transition: all;
+    transition-duration: 2s;
+  }
+
+  h1:hover {
+    font-family: "Norican", cursive;
+    font-size: 12vw;
+    margin: 1vw 5vw 1vw 5vw;
+    color: rgb(50, 196, 21);
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transition: all;
+    transition-duration: 1s;
+    border: 1vw ridge whitesmoke;
+  }
+
+  img:hover {
+    transform: scale(1.2, 1.2);
+    border: 1vw ridge blue;
+  }
+
+  p {
+    font-size: 3vw;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  p:hover {
+    font-size: 3vw;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    font-weight: 900;
+  }
+
+  table {
+    border: 2px ridge gold;
+    padding: 5px;
+    margin: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+    /* table-layout: fixed; */
+    /* width: 100%; */
+  }
+
+  td {
+    border: 4px ridge cyan;
+    font-size: 3vw;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+    text-align: center;
+  }
+
+  th {
+    color: rgb(23, 56, 225);
+    border: 5px ridge white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 3vw;
+    transition: all;
+    transition-duration: 0.5s;
+    background-color: rgb(235, 16, 206);
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td:hover {
+    border: 2px ridge rgb(12, 12, 194);
+    font-size: 4vw;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    background-color: cyan;
+  }
+
+  th:hover {
+    color: blue;
+    border: 5px ridge rgb(34, 236, 34);
+    padding: 5px;
+    margin: 5px;
+    font-size: 4vw;
+    background-color: pink;
+    /* border: 3px ridge rgb(12, 12, 194); */
+  }
+
+  table:hover {
+    border: 5px ridge greenyellow;
+    padding: 5px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  label {
+    font-size: 5vw;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  label:hover {
+    font-size: 5vw;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    font-weight: 900;
+  }
+
+  input {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+    transition: all;
+    transition-duration: 0.5s;
+    color: rgb(0, 76, 255);
+    margin: 5px;
+  }
+
+  select {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+  }
+
+  .centeredForm {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2px;
+  }
+
+  form {
+    padding: 2px;
+    border: 2px ridge cyan;
+  }
+
+  textarea {
+    width: 20%;
+    font-size: 5vw;
+    height: 20px;
+    transition: all;
+    transition-duration: 1s;
+    font-family: "Antic Slab", serif;
+  }
+
+  textarea:focus {
+    width: 20%;
+    font-size: 5vw;
+    height: 15vw;
+    font-family: "Antic Slab", serif;
+    border: 2px ridge red;
+    color: rgb(0, 76, 255);
+  }
+
+  input:hover {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+    border: 2px ridge red;
+    color: rgb(0, 76, 255);
+  }
+
+  select:hover {
+    font-size: 5vw;
+    width: 20%;
+    font-family: "Antic Slab", serif;
+    border: 2px ridge red;
+    color: rgb(0, 76, 255);
+  }
+
+  .Button {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: linear-gradient(to right, gold, white, gold);
+    margin: 2px;
+    transition: all;
+    transition-duration: 3s;
+  }
+
+  .Button:hover {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: linear-gradient(to right, cyan, gold, cyan);
+    margin: 2px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    color: blue;
+    border: 2px ridge red;
+    font-weight: bold;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    color: red;
+    border: 5px ridge red;
+    padding: 5px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 646px) and (max-width: 1024px) and (orientation: landscape) {
+  @keyframes animationbg {
+    from {
+      background-image: linear-gradient(whitesmoke, cyan, blue);
+    }
+    to {
+      background-image: linear-gradient(
+        rgb(235, 228, 16),
+        rgb(29, 211, 211),
+        rgb(13, 13, 186)
+      );
+    }
+  }
+
+  .logo {
+  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+  color: white;
+  font-weight: 500;
+  font-size: 3vw;
+  border: 5px ridge gold;
+  transition: all;
+  transition-duration: 2s;
+}
+
+.logo:hover {
+  background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
+  color: white;
+  font-size: 4vw;
+  font-weight: 500;
+  border: 5px ridge gold;
+}
 
   html {
     scroll-behavior: smooth;
