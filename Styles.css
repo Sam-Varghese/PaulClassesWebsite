@@ -229,6 +229,7 @@ table {
 }
 
 td {
+  user-select: none;
   border: 4px ridge cyan;
   font-size: 1.5vw;
   color: white;
@@ -624,6 +625,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    user-select: none;
     border: 4px ridge cyan;
     font-size: 5vw;
     color: white;
@@ -1021,6 +1023,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    user-select: none;
     border: 3px ridge cyan;
     font-size: 2vw;
     color: white;
@@ -1422,6 +1425,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    user-select: none;
     border: 4px ridge cyan;
     font-size: 3vw;
     color: white;
@@ -1823,6 +1827,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    user-select: none;
     border: 4px ridge cyan;
     font-size: 2vw;
     color: white;
