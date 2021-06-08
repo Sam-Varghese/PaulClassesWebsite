@@ -43,7 +43,7 @@ body {
 
   background-repeat: no-repeat;
   box-sizing: border-box;
-  background-size: contain;
+  background-size: cover;
 }
 
 iframe {
@@ -96,6 +96,7 @@ iframe {
 }
 
 .child_menu {
+  font-family: "El Messiri", sans-serif;
   border-radius: 2px;
   padding: 10px;
   margin: 10px;
@@ -106,6 +107,20 @@ iframe {
   border-radius: 10px;
   text-decoration: none;
   border: 10px solid white;
+}
+
+.active_child_menu {
+  font-family: "El Messiri", sans-serif;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px;
+  background-color: gold;
+  color: blue;
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 10px solid red;
 }
 
 .parent_menu:hover {
@@ -229,6 +244,7 @@ table {
 }
 
 td {
+  font-family: "El Messiri", sans-serif;
   user-select: none;
   border: 4px ridge cyan;
   font-size: 1.5vw;
@@ -241,6 +257,7 @@ td {
 }
 
 th {
+  font-family: "Norican", cursive;
   user-select: none;
   color: rgb(23, 56, 225);
   border: 5px ridge white;
@@ -258,6 +275,7 @@ th {
 }
 
 td:hover {
+  font-family: "El Messiri", sans-serif;
   border: 2px ridge rgb(12, 12, 194);
   font-size: 1.5vw;
   color: black;
@@ -267,6 +285,7 @@ td:hover {
 }
 
 th:hover {
+  font-family: "Norican", cursive;
   user-select: none;
   color: white;
   border: 10px ridge white;
@@ -529,6 +548,20 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
+    font-family: "El Messiri", sans-serif;
+    border-radius: 10px;
+    font-size: 3vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 3px;
+  }
+
+  .active_child_menu {
+    font-family: "El Messiri", sans-serif;
     border-radius: 10px;
     font-size: 3vw;
     background-color: gold;
@@ -625,6 +658,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    font-family: "El Messiri", sans-serif;
     user-select: none;
     border: 4px ridge cyan;
     font-size: 5vw;
@@ -637,6 +671,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    font-family: "Norican", cursive;
     user-select: none;
     color: rgb(23, 56, 225);
     border: 5px ridge white;
@@ -654,6 +689,7 @@ input[type="reset"]:hover {
   }
 
   td:hover {
+    font-family: "El Messiri", sans-serif;
     border: 2px ridge rgb(12, 12, 194);
     font-size: 5vw;
     color: black;
@@ -663,6 +699,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    font-family: "Norican", cursive;
     user-select: none;
     color: white;
     border: 5px ridge white;
@@ -927,6 +964,7 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
+    font-family: "El Messiri", sans-serif;
     border-radius: 10px;
     font-size: 2vw;
     background-color: gold;
@@ -934,7 +972,20 @@ input[type="reset"]:hover {
     transition: all;
     transition-duration: 0.5s;
     text-decoration: none;
-    border: 2px solid red;
+    border: 2px solid white;
+    margin: 3px;
+  }
+
+  .active_child_menu {
+    font-family: "El Messiri", sans-serif;
+    border-radius: 10px;
+    font-size: 2vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 2px solid white;
     margin: 3px;
   }
 
@@ -952,7 +1003,7 @@ input[type="reset"]:hover {
   .child_menu:hover {
     border-radius: 10px;
     background-color: aqua;
-    font-size: 3vw;
+    font-size: 2vw;
     color: blue;
     transform: scale(1.2, 1.2);
     border-radius: 10px;
@@ -1023,6 +1074,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    font-family: "El Messiri", sans-serif;
     user-select: none;
     border: 3px ridge cyan;
     font-size: 2vw;
@@ -1035,6 +1087,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    font-family: "Norican", cursive;
     user-select: none;
     color: rgb(23, 56, 225);
     border: 3px ridge white;
@@ -1052,6 +1105,7 @@ input[type="reset"]:hover {
   }
 
   td:hover {
+    font-family: "El Messiri", sans-serif;
     border: 2px ridge rgb(12, 12, 194);
     font-size: 2.3vw;
     color: black;
@@ -1061,6 +1115,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    font-family: "Norican", cursive;
     user-select: none;
     color: white;
     border: 4px ridge white;
@@ -1330,6 +1385,20 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
+    font-family: "El Messiri", sans-serif;
+    border-radius: 10px;
+    font-size: 3vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 3px;
+  }
+
+  .active_child_menu {
+    font-family: "El Messiri", sans-serif;
     border-radius: 10px;
     font-size: 3vw;
     background-color: gold;
@@ -1425,6 +1494,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    font-family: "El Messiri", sans-serif;
     user-select: none;
     border: 4px ridge cyan;
     font-size: 3vw;
@@ -1437,6 +1507,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    font-family: "Norican", cursive;
     user-select: none;
     color: rgb(23, 56, 225);
     border: 5px ridge white;
@@ -1454,6 +1525,7 @@ input[type="reset"]:hover {
   }
 
   td:hover {
+    font-family: "El Messiri", sans-serif;
     border: 2px ridge rgb(12, 12, 194);
     font-size: 4vw;
     color: black;
@@ -1463,6 +1535,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    font-family: "Norican", cursive;
     user-select: none;
     color: white;
     border: 5px ridge white;
@@ -1732,6 +1805,21 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
+    font-family: "El Messiri", sans-serif;
+    border-radius: 10px;
+    font-size: 2vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 3px;
+    align-items: center;
+  }
+
+  .active_child_menu {
+    font-family: "El Messiri", sans-serif;
     border-radius: 10px;
     font-size: 2vw;
     background-color: gold;
@@ -1757,7 +1845,7 @@ input[type="reset"]:hover {
   .child_menu:hover {
     border-radius: 10px;
     background-color: aqua;
-    font-size: 4vw;
+    font-size: 2vw;
     color: blue;
     transform: scale(1.2, 1.2);
     text-decoration: none;
@@ -1827,6 +1915,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    font-family: "El Messiri", sans-serif;
     user-select: none;
     border: 4px ridge cyan;
     font-size: 2vw;
@@ -1839,6 +1928,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    font-family: "Norican", cursive;
     user-select: none;
     color: rgb(23, 56, 225);
     border: 5px ridge white;
@@ -1856,6 +1946,7 @@ input[type="reset"]:hover {
   }
 
   td:hover {
+    font-family: "El Messiri", sans-serif;
     border: 2px ridge rgb(12, 12, 194);
     font-size: 2.5vw;
     color: black;
@@ -1865,6 +1956,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    font-family: "Norican", cursive;
     user-select: none;
     color: white;
     border: 5px ridge white;
