@@ -43,7 +43,7 @@ body {
 
   background-repeat: no-repeat;
   box-sizing: border-box;
-  background-size: contain;
+  background-size: cover;
 }
 
 iframe {
@@ -96,6 +96,7 @@ iframe {
 }
 
 .child_menu {
+  font-family: "El Messiri", sans-serif;
   border-radius: 2px;
   padding: 10px;
   margin: 10px;
@@ -106,6 +107,20 @@ iframe {
   border-radius: 10px;
   text-decoration: none;
   border: 10px solid white;
+}
+
+.active_child_menu {
+  font-family: "El Messiri", sans-serif;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px;
+  background-color: gold;
+  color: blue;
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 10px solid brown;
 }
 
 .parent_menu:hover {
@@ -184,11 +199,12 @@ p:hover {
   font-family: "El Messiri", sans-serif;
   /* color: gold; */
   font-weight: 900;
-  color: rgb(22, 3, 6);
+  color: black;
   user-select: none;
 }
 
 button {
+  font-family: "El Messiri", sans-serif;
   font-size: 2vw;
   border-radius: 20px;
   color: blue;
@@ -200,12 +216,13 @@ button {
     cyan,
     greenyellow
   );
-  border: 20px ridge gold;
+  border: 10px ridge gold;
   transition: all;
   transition-duration: 1s;
 }
 
 button:hover {
+  font-family: "El Messiri", sans-serif;
   font-size: 2vw;
   border-radius: 20px;
   color: blue;
@@ -229,6 +246,7 @@ table {
 }
 
 td {
+  font-family: "El Messiri", sans-serif;
   user-select: none;
   border: 4px ridge cyan;
   font-size: 1.5vw;
@@ -241,6 +259,7 @@ td {
 }
 
 th {
+  font-family: "Norican", cursive;
   user-select: none;
   color: rgb(23, 56, 225);
   border: 5px ridge white;
@@ -258,6 +277,7 @@ th {
 }
 
 td:hover {
+  font-family: "El Messiri", sans-serif;
   border: 2px ridge rgb(12, 12, 194);
   font-size: 1.5vw;
   color: black;
@@ -267,6 +287,7 @@ td:hover {
 }
 
 th:hover {
+  font-family: "Norican", cursive;
   user-select: none;
   color: white;
   border: 10px ridge white;
@@ -298,7 +319,7 @@ label:hover {
   user-select: none;
   font-size: 2vw;
   font-family: "El Messiri", sans-serif;
-  color: white;
+  color: black;
   font-weight: 900;
 }
 
@@ -364,6 +385,7 @@ select:hover {
 }
 
 .Button {
+  font-family: "El Messiri", sans-serif;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -374,6 +396,7 @@ select:hover {
 }
 
 .Button:hover {
+  font-family: "El Messiri", sans-serif;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -419,7 +442,7 @@ input[type="reset"]:hover {
   }
 
   #link {
-    color: rgb(52, 238, 15);
+    color: rgb(208, 238, 15);
   }
 
   body {
@@ -482,6 +505,7 @@ input[type="reset"]:hover {
   }
 
   button {
+    font-family: "El Messiri", sans-serif;
     font-size: 3vw;
     border-radius: 2px;
     color: blue;
@@ -499,6 +523,7 @@ input[type="reset"]:hover {
   }
 
   button:hover {
+    font-family: "El Messiri", sans-serif;
     font-size: 3vw;
     border-radius: 2px;
     color: blue;
@@ -529,6 +554,20 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
+    font-family: "El Messiri", sans-serif;
+    border-radius: 10px;
+    font-size: 3vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 3px;
+  }
+
+  .active_child_menu {
+    font-family: "El Messiri", sans-serif;
     border-radius: 10px;
     font-size: 3vw;
     background-color: gold;
@@ -625,6 +664,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    font-family: "El Messiri", sans-serif;
     user-select: none;
     border: 4px ridge cyan;
     font-size: 5vw;
@@ -637,6 +677,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    font-family: "Norican", cursive;
     user-select: none;
     color: rgb(23, 56, 225);
     border: 5px ridge white;
@@ -654,6 +695,7 @@ input[type="reset"]:hover {
   }
 
   td:hover {
+    font-family: "El Messiri", sans-serif;
     border: 2px ridge rgb(12, 12, 194);
     font-size: 5vw;
     color: black;
@@ -663,6 +705,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    font-family: "Norican", cursive;
     user-select: none;
     color: white;
     border: 5px ridge white;
@@ -761,6 +804,7 @@ input[type="reset"]:hover {
   }
 
   .Button {
+    font-family: "El Messiri", sans-serif;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -771,6 +815,7 @@ input[type="reset"]:hover {
   }
 
   .Button:hover {
+    font-family: "El Messiri", sans-serif;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -880,6 +925,7 @@ input[type="reset"]:hover {
   }
 
   button {
+    font-family: "El Messiri", sans-serif;
     font-size: 2vw;
     border-radius: 2px;
     color: blue;
@@ -897,6 +943,7 @@ input[type="reset"]:hover {
   }
 
   button:hover {
+    font-family: "El Messiri", sans-serif;
     font-size: 2.4vw;
     border-radius: 2px;
     color: blue;
@@ -927,6 +974,7 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
+    font-family: "El Messiri", sans-serif;
     border-radius: 10px;
     font-size: 2vw;
     background-color: gold;
@@ -934,7 +982,20 @@ input[type="reset"]:hover {
     transition: all;
     transition-duration: 0.5s;
     text-decoration: none;
-    border: 2px solid red;
+    border: 2px solid white;
+    margin: 3px;
+  }
+
+  .active_child_menu {
+    font-family: "El Messiri", sans-serif;
+    border-radius: 10px;
+    font-size: 2vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 3px solid red;
     margin: 3px;
   }
 
@@ -952,13 +1013,13 @@ input[type="reset"]:hover {
   .child_menu:hover {
     border-radius: 10px;
     background-color: aqua;
-    font-size: 3vw;
+    font-size: 2vw;
     color: blue;
     transform: scale(1.2, 1.2);
     border-radius: 10px;
     text-decoration: none;
     border: 2px solid black;
-    margin: 3px;
+    margin: 0px 15px 0px 15px;
   }
 
   h1 {
@@ -1023,6 +1084,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    font-family: "El Messiri", sans-serif;
     user-select: none;
     border: 3px ridge cyan;
     font-size: 2vw;
@@ -1035,6 +1097,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    font-family: "Norican", cursive;
     user-select: none;
     color: rgb(23, 56, 225);
     border: 3px ridge white;
@@ -1052,6 +1115,7 @@ input[type="reset"]:hover {
   }
 
   td:hover {
+    font-family: "El Messiri", sans-serif;
     border: 2px ridge rgb(12, 12, 194);
     font-size: 2.3vw;
     color: black;
@@ -1061,6 +1125,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    font-family: "Norican", cursive;
     user-select: none;
     color: white;
     border: 4px ridge white;
@@ -1159,6 +1224,7 @@ input[type="reset"]:hover {
   }
 
   .Button {
+    font-family: "El Messiri", sans-serif;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -1169,6 +1235,7 @@ input[type="reset"]:hover {
   }
 
   .Button:hover {
+    font-family: "El Messiri", sans-serif;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -1296,6 +1363,7 @@ input[type="reset"]:hover {
   }
 
   button {
+    font-family: "El Messiri", sans-serif;
     font-size: 3vw;
     border-radius: 2px;
     color: blue;
@@ -1313,6 +1381,7 @@ input[type="reset"]:hover {
   }
 
   button:hover {
+    font-family: "El Messiri", sans-serif;
     font-size: 3.3vw;
     border-radius: 2px;
     color: blue;
@@ -1330,6 +1399,20 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
+    font-family: "El Messiri", sans-serif;
+    border-radius: 10px;
+    font-size: 3vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 3px;
+  }
+
+  .active_child_menu {
+    font-family: "El Messiri", sans-serif;
     border-radius: 10px;
     font-size: 3vw;
     background-color: gold;
@@ -1425,6 +1508,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    font-family: "El Messiri", sans-serif;
     user-select: none;
     border: 4px ridge cyan;
     font-size: 3vw;
@@ -1437,6 +1521,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    font-family: "Norican", cursive;
     user-select: none;
     color: rgb(23, 56, 225);
     border: 5px ridge white;
@@ -1454,6 +1539,7 @@ input[type="reset"]:hover {
   }
 
   td:hover {
+    font-family: "El Messiri", sans-serif;
     border: 2px ridge rgb(12, 12, 194);
     font-size: 4vw;
     color: black;
@@ -1463,6 +1549,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    font-family: "Norican", cursive;
     user-select: none;
     color: white;
     border: 5px ridge white;
@@ -1494,7 +1581,7 @@ input[type="reset"]:hover {
     user-select: none;
     font-size: 5vw;
     font-family: "El Messiri", sans-serif;
-    color: white;
+    color: black;
     font-weight: 900;
   }
 
@@ -1561,6 +1648,7 @@ input[type="reset"]:hover {
   }
 
   .Button {
+    font-family: "El Messiri", sans-serif;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -1571,6 +1659,7 @@ input[type="reset"]:hover {
   }
 
   .Button:hover {
+    font-family: "El Messiri", sans-serif;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -1698,6 +1787,7 @@ input[type="reset"]:hover {
   }
 
   button {
+    font-family: "El Messiri", sans-serif;
     font-size: 2vw;
     border-radius: 2px;
     color: blue;
@@ -1715,6 +1805,7 @@ input[type="reset"]:hover {
   }
 
   button:hover {
+    font-family: "El Messiri", sans-serif;
     font-size: 2.3vw;
     border-radius: 2px;
     color: blue;
@@ -1732,6 +1823,21 @@ input[type="reset"]:hover {
   }
 
   .child_menu {
+    font-family: "El Messiri", sans-serif;
+    border-radius: 10px;
+    font-size: 2vw;
+    background-color: gold;
+    color: blue;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 3px;
+    align-items: center;
+  }
+
+  .active_child_menu {
+    font-family: "El Messiri", sans-serif;
     border-radius: 10px;
     font-size: 2vw;
     background-color: gold;
@@ -1757,12 +1863,12 @@ input[type="reset"]:hover {
   .child_menu:hover {
     border-radius: 10px;
     background-color: aqua;
-    font-size: 4vw;
+    font-size: 2vw;
     color: blue;
     transform: scale(1.2, 1.2);
     text-decoration: none;
     border: 2px solid black;
-    margin: 3px;
+    margin: 0px 15px 0px 15px;
   }
 
   h1 {
@@ -1827,6 +1933,7 @@ input[type="reset"]:hover {
   }
 
   td {
+    font-family: "El Messiri", sans-serif;
     user-select: none;
     border: 4px ridge cyan;
     font-size: 2vw;
@@ -1839,6 +1946,7 @@ input[type="reset"]:hover {
   }
 
   th {
+    font-family: "Norican", cursive;
     user-select: none;
     color: rgb(23, 56, 225);
     border: 5px ridge white;
@@ -1856,6 +1964,7 @@ input[type="reset"]:hover {
   }
 
   td:hover {
+    font-family: "El Messiri", sans-serif;
     border: 2px ridge rgb(12, 12, 194);
     font-size: 2.5vw;
     color: black;
@@ -1865,6 +1974,7 @@ input[type="reset"]:hover {
   }
 
   th:hover {
+    font-family: "Norican", cursive;
     user-select: none;
     color: white;
     border: 5px ridge white;
@@ -1963,6 +2073,7 @@ input[type="reset"]:hover {
   }
 
   .Button {
+    font-family: "El Messiri", sans-serif;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -1973,6 +2084,7 @@ input[type="reset"]:hover {
   }
 
   .Button:hover {
+    font-family: "El Messiri", sans-serif;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
