@@ -52,11 +52,10 @@
     <meta name="theme-color" content="#ffffff" />
 
     <style>
-      html{
+      html {
         height: 250%;
       }
     </style>
-
   </head>
   <body>
     <!-- Creating menus -->
@@ -235,8 +234,39 @@
         </tr>
       </table>
     </div>
-
+    <p
+      id="secret"
+      onmousedown="secret_text('show')"
+      onmouseup="secret_text('hide')"
+      style="
+        background-color: cyan;
+        background-image: linear-gradient(
+          to right,
+          cyan,
+          rgb(235, 71, 99),
+          cyan
+        );
+        text-align: center;
+      "
+    >
+      See you in the class :)
+    </p>
     <script>
+      function secret_text(task) {
+        if (task === "show") {
+          document.getElementById("secret").innerHTML =
+            "Secret 🤫👉: Made with 💗 by Sam Varghese 😇";
+          document.getElementById("secret").style.backgroundImage =
+            "linear-gradient(black, blue, black)";
+          document.getElementById("secret").style.color = "white";
+        } else {
+          document.getElementById("secret").innerHTML =
+            "See you in the class :)";
+          document.getElementById("secret").style.backgroundImage =
+            "linear-gradient(to right,cyan,rgb(235, 71, 99),cyan)";
+          document.getElementById("secret").style.color = "white";
+        }
+      }
       function fun1() {
         const input = document.createElement("input");
         input.setAttribute("value", "https://meet.google.com/euy-btbu-jck");
