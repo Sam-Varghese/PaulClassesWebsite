@@ -433,6 +433,10 @@ input[type="reset"]:hover {
     }
   }
 
+  #secret {
+    visibility: hidden;
+  }
+
   html {
     scroll-behavior: smooth;
   }
@@ -853,6 +857,10 @@ input[type="reset"]:hover {
     }
   }
 
+  #secret {
+    visibility: hidden;
+  }
+
   html {
     scroll-behavior: smooth;
   }
@@ -1271,6 +1279,10 @@ input[type="reset"]:hover {
         rgb(13, 13, 186)
       );
     }
+  }
+
+  #secret {
+    visibility: hidden;
   }
 
   .logo {
@@ -1705,6 +1717,10 @@ input[type="reset"]:hover {
     border: 5px ridge gold;
     transition: all;
     transition-duration: 2s;
+  }
+
+  #secret {
+    visibility: hidden;
   }
 
   .logo:hover {
