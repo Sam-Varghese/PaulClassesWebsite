@@ -252,15 +252,19 @@
       See you in the class :)
     </p>
     <script>
-      function secret_text(task){
-        if(task==="show"){
-          document.getElementById("secret").innerHTML="Secret 🤫👉: Made with 💗 by Sam Varghese 😇";
-          document.getElementById("secret").style.backgroundImage="linear-gradient(black, blue, black)";
-          document.getElementById("secret").style.color="white";
-        } else{
-          document.getElementById("secret").innerHTML="See you in the class :)";
-          document.getElementById("secret").style.backgroundImage="linear-gradient(to right,cyan,rgb(235, 71, 99),cyan)";
-          document.getElementById("secret").style.color="white";
+      function secret_text(task) {
+        if (task === "show") {
+          document.getElementById("secret").innerHTML =
+            "Secret 🤫👉: Made with 💗 by Sam Varghese 😇";
+          document.getElementById("secret").style.backgroundImage =
+            "linear-gradient(black, blue, black)";
+          document.getElementById("secret").style.color = "white";
+        } else {
+          document.getElementById("secret").innerHTML =
+            "See you in the class :)";
+          document.getElementById("secret").style.backgroundImage =
+            "linear-gradient(to right,cyan,rgb(235, 71, 99),cyan)";
+          document.getElementById("secret").style.color = "white";
         }
       }
       function fun1() {
