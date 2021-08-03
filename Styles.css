@@ -6,6 +6,12 @@
   color: rgb(52, 238, 15);
 }
 
+.YouTubelogo{
+  width: 50px;
+  border: none;
+  display: inline;
+}
+
 html {
   scroll-behavior: smooth;
 }
