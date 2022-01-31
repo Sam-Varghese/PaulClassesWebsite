@@ -905,6 +905,7 @@ input[type="reset"]:hover {
     border: 5px ridge gold;
     transition: all;
     transition-duration: 2s;
+    text-decoration: none;
   }
 
   .logo:hover {
