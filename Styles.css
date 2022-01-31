@@ -17,8 +17,8 @@ html {
 }
 
 .logo {
-  background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
   color: white;
+  background-color: green;
   font-weight: 500;
   font-size: 2vw;
   border: 10px ridge gold;
@@ -27,7 +27,7 @@ html {
 }
 
 .logo:hover {
-  background-image: linear-gradient(cyan, rgb(46, 46, 6), cyan);
+  background-color: green;
   color: white;
   font-size: 2.5vw;
   font-weight: 500;
@@ -474,8 +474,8 @@ input[type="reset"]:hover {
   }
 
   .logo {
-    background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
     color: white;
+    background-color: green;
     font-weight: 500;
     font-size: 5vw;
     border: 5px ridge gold;
@@ -898,7 +898,8 @@ input[type="reset"]:hover {
   }
 
   .logo {
-    background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
+    background-color: green;
+    background-color: green;
     color: white;
     font-weight: 500;
     font-size: 3vw;
@@ -909,7 +910,7 @@ input[type="reset"]:hover {
   }
 
   .logo:hover {
-    background-image: linear-gradient(rgb(8, 10, 41), rgb(40, 14, 240));
+    background-color: green;
     color: white;
     font-size: 4vw;
     font-weight: 500;
@@ -1293,8 +1294,8 @@ input[type="reset"]:hover {
   }
 
   .logo {
-    background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
     color: white;
+    background-color: green;
     font-weight: 500;
     font-size: 3vw;
     border: 5px ridge gold;
@@ -1717,8 +1718,8 @@ input[type="reset"]:hover {
   }
 
   .logo {
-    background-image: linear-gradient(rgb(241, 32, 17), rgb(35, 37, 4));
     color: white;
+    background-color: green;
     font-weight: 500;
     font-size: 2vw;
     border: 5px ridge gold;
