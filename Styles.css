@@ -282,6 +282,31 @@ th {
   margin-right: auto;
 }
 
+.extraTime{
+  font-family: "Norican", cursive;
+  user-select: none;
+  color: rgb(23, 56, 225);
+  font-size: 2vw;
+
+}
+
+.centerExtraTime{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerExtraTime p{
+  font-family: "El Messiri", sans-serif;
+  user-select: none;
+  font-size: 1.5vw;
+  color: white;
+  padding: 0.2vw;
+  margin: 0.2vw;
+  /* border: 2px solid; */
+}
+
 td:hover {
   font-family: "El Messiri", sans-serif;
   border: 2px ridge rgb(12, 12, 194);
