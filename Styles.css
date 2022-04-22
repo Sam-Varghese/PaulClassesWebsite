@@ -724,6 +724,33 @@ input[type="reset"]:hover {
     background-color: rgb(235, 16, 206);
   }
 
+
+.extraTime{
+  font-family: "Norican", cursive;
+  user-select: none;
+  color: rgb(23, 56, 225);
+  font-size: 5vw;
+
+}
+
+.centerExtraTime{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerExtraTime p{
+  font-family: "El Messiri", sans-serif;
+  user-select: none;
+  font-size: 5vw;
+  color: white;
+  padding: 0.2vw;
+  margin: 0.2vw;
+  /* border: 2px solid; */
+}
+
+
   .center {
     margin-left: auto;
     margin-right: auto;
@@ -1149,6 +1176,33 @@ input[type="reset"]:hover {
     transition-duration: 0.5s;
     background-color: rgb(235, 16, 206);
   }
+
+  
+.extraTime{
+  font-family: "Norican", cursive;
+  user-select: none;
+  color: rgb(23, 56, 225);
+  font-size: 2.5vw;
+
+}
+
+.centerExtraTime{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerExtraTime p{
+  font-family: "El Messiri", sans-serif;
+  user-select: none;
+  font-size: 2vw;
+  color: white;
+  padding: 0.2vw;
+  margin: 0.2vw;
+  /* border: 2px solid; */
+}
+
 
   .center {
     margin-left: auto;
@@ -1578,6 +1632,33 @@ input[type="reset"]:hover {
     background-color: rgb(235, 16, 206);
   }
 
+  
+.extraTime{
+  font-family: "Norican", cursive;
+  user-select: none;
+  color: rgb(23, 56, 225);
+  font-size: 3vw;
+
+}
+
+.centerExtraTime{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerExtraTime p{
+  font-family: "El Messiri", sans-serif;
+  user-select: none;
+  font-size: 3vw;
+  color: white;
+  padding: 0.2vw;
+  margin: 0.2vw;
+  /* border: 2px solid; */
+}
+
+
   .center {
     margin-left: auto;
     margin-right: auto;
@@ -2006,6 +2087,33 @@ input[type="reset"]:hover {
     transition-duration: 0.5s;
     background-color: rgb(235, 16, 206);
   }
+
+  
+.extraTime{
+  font-family: "Norican", cursive;
+  user-select: none;
+  color: rgb(23, 56, 225);
+  font-size: 2vw;
+
+}
+
+.centerExtraTime{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerExtraTime p{
+  font-family: "El Messiri", sans-serif;
+  user-select: none;
+  font-size: 2vw;
+  color: white;
+  padding: 0.2vw;
+  margin: 0.2vw;
+  /* border: 2px solid; */
+}
+
 
   .center {
     margin-left: auto;
